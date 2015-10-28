@@ -10,6 +10,8 @@ var app = {
 
 	backButton : function () {
 		alert ('backbutton!');
+		
+		alert(navigator.connection.type);
 	},
 
 	networkStatus : function () {

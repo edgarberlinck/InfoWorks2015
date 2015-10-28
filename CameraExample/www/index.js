@@ -10,6 +10,7 @@ var app = {
 
 	backButton : function () {
 		alert ('backbutton!');
+		app.tirarFoto();
 	},
 
 	tirarFoto : function () {
@@ -19,7 +20,7 @@ var app = {
 		};
 
 		var cameraError = function () {
-
+			alert("Erro");
 		};
 
 		var cameraOptions = { 

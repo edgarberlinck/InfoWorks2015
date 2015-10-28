@@ -9,7 +9,7 @@ var app = {
 	},
 
 	backButton : function () {
-		alert ('backbutton!');
+		app.obterGeolocalizacao();
 	},
 
 	obterGeolocalizacao : function () {
